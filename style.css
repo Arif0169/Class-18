@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fixed-width{
+    width: 1024px;
+    margin: auto;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* Header Start */
+.header{
+    background: #fff;
+}
+.header .logo{
+    width: 25%;
+}
+.header .logo img{
+    width: 100px;
+    height: 55px;
+}
+
+.header .menu{
+    width: 70%;
+    text-align: right;
+}
+.header .menu ul{}
+.header .menu ul li{
+    display: inline-block;
+    padding: 20px 20px;
+}
+.header .menu ul li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.header .menu ul li a:hover{}
+/* Header End */
+/* Banner Start */
+.banner{
+    background-image: url(https://i.ibb.co/z6sRsqC/438159144-3911810072379793-895753429752999399-n.jpg);
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.banner .text{
+    text-align: center;
+}
+.banner .text p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner .text h1{
+    margin: 50px 0;
+}
+.banner .button{
+    background: #fff;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+.banner .button a{
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+}
+/* Banner End */
