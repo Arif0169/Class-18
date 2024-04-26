@@ -40,7 +40,6 @@
 
 .header .menu{
     width: 70%;
-    text-align: right;
 }
 .header .menu ul{}
 .header .menu ul li{
@@ -57,34 +56,157 @@
 /* Banner Start */
 .banner{
     background-image: url(https://i.ibb.co/z6sRsqC/438159144-3911810072379793-895753429752999399-n.jpg);
-    text-align: center;
     color: #fff;
-    padding: 100px 0;
+    padding: 120px 0;
     background-repeat: repeat;
     background-size: cover;
+    position: relative;
+    z-index: 4;
 }
-.banner .text{
-    text-align: center;
+.banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: -1;
 }
+.banner .text{}
 .banner .text p{
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 .banner .text h1{
-    margin: 50px 0;
+    margin: 20px 0;
 }
-.banner .button{
+.button{
     background: #fff;
     height: 50px;
-    width: 100px;
+    width: 150px;
     border-radius: 5px;
     display: inline-block;
     margin: auto;
-    text-align: center;
+    transition: .5s;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 20px;
 }
-.banner .button a{
+.button a{
     text-decoration: none;
     line-height: 50px;
-    text-align: center;
+    color: #928580;
+}
+.banner .button a i{
+    margin-right: 10px;
+}
+.banner .button:hover{
+    background: #e1a23e;
+}
+.banner .button:hover a{
+    color: #fff;
 }
 /* Banner End */
+.pricing-section{
+    background: #f7f7f7;
+    padding: 50px;
+}
+.pricing-section .heading-text{
+    padding: 0 0 30px 0;
+}
+.pricing-section .heading-text h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.pricing-section .heading-text p{ 
+    color: #928580;
+    font-size: 18px;
+}
+.pricing-items{}
+
+.pricing-items .items{}
+.items{
+    width: 32%;
+    margin-right: 2%;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 25px -8px rgba(135, 135, 255, .5);
+}
+.items:last-child{
+    margin-right: 0;
+}
+.p-heading{
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+    transition: .5s;
+
+}
+.p-heading h4{
+    font-weight: 200;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.p-heading h1{
+    font-size: 50px;
+    margin: 20px 0;
+    background: #f5f5f5;
+    transition: .5s;
+
+}
+.p-heading h1 span{
+    font-size: 30px;
+}
+.p-heading h5{
+    font-weight: 200;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.p-heading p{
+    font-size: 20px;
+    font-weight: 200;
+    color: #928580;
+}
+.p-content{
+    padding: 30px;
+}
+.p-content ul{
+    list-style: none;
+}
+.p-content ul li{
+    margin: 10px 0;
+}
+.p-content ul li span{
+    display: inline-block;
+    font-size: 30px;
+    width: 40px;
+    color: #e79230;
+}
+.p-btn{
+    margin-bottom: 40px;
+}
+.p-btn a{
+   text-decoration: none;
+   color: #928580;
+   font-weight: 900;
+   line-height: 50px;
+}
+.p-btn .button{
+    box-shadow: 0px 6px 21px -10px blue;
+    transition: .5s;
+}
+
+.items:hover .p-heading{
+    background: #e79230;
+    color: #fff;
+}
+.items:hover .p-heading h1{
+    background: #e79230;
+    color: #fff;
+}
+.items:hover .p-btn .button{
+    background: #e79230;
+    color: #fff;
+}
