@@ -210,3 +210,93 @@
     background: #e79230;
     color: #fff;
 }
+/* team-section start */
+.team-section{
+    padding: 50px 0;
+}
+.heading-text{}
+.heading-text h1{
+    margin-bottom: 30px;
+}
+.members{
+    padding: 20px 0;
+}
+.member{
+    width: 23%;
+    border: 5px double #e79230;
+    margin-right: 2%;
+    box-sizing: border-box;
+}
+.member:last-child{
+    margin-right: 0;
+}
+.member img{
+    height: 200px;
+}
+.m-text{
+    padding: 20px;
+}
+.m-text h4{
+    margin-bottom: 10px;
+}
+.m-text p{}
+/* team-section end */
+
+/* subscription-section start */
+.subscription-section{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 70px;
+}
+.heading-text{}
+.heading-text p{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #928580;
+}
+.subscription-section input{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #aa972c;
+}
+.button-edit{
+    background-color: #aa972c;
+    width: 200px;
+}
+.button-edit a{
+    color: #fff;
+    font-size: 25px;
+}
+/* subscription-section end */
+/* Choose-Section start */
+.Choose-Section{
+    padding: 20px 0;
+}
+.reason{}
+.r-img{
+    width: 45%;
+    margin-right: 2%;
+}
+.r-img img{
+    max-width: 100%;
+}
+.cr-text{
+    width: 50%;
+}
+.r-text{
+    margin-bottom: 20px;
+}
+.r-text h5{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.r-text p{
+    font-size: 18px;
+    line-height: 34px;
+}
+/* Choose-Section end */
