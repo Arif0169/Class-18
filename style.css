@@ -154,7 +154,6 @@
     margin: 20px 0;
     background: #f5f5f5;
     transition: .5s;
-
 }
 .p-heading h1 span{
     font-size: 30px;
@@ -214,7 +213,9 @@
 .team-section{
     padding: 50px 0;
 }
-.heading-text{}
+.heading-text{
+    text-align: center;
+}
 .heading-text h1{
     margin-bottom: 30px;
 }
@@ -300,3 +301,33 @@
     line-height: 34px;
 }
 /* Choose-Section end */
+/* Feedback-Section start */
+.feedback-section{}
+.f-users{}
+.user{}
+.u-text{}
+.u-text p{}
+.u-info{}
+.u-info img{}
+.u-text-sub{}
+.u-text-sub h5{}
+.u-text-sub p{}
+/* Feedback-Section end */
+/* Contact Us start */
+.contact-us{}
+.contact-us form{}
+.contact-us form input{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #aa972c;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.contact-us form textarea{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #aa972c;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+/* Contact Us end */
